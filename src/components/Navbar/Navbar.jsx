@@ -9,7 +9,7 @@ const Navbar = () => {
     const classes = useStyles();
   return (
     <>
-        <AppBar position="fixed" className={classes.appBar} color="inherent">
+        <AppBar position="fixed" className={classes.appBar} color="inherit">
             <Toolbar>
                 <Typography variant="h6" className={classes.title} color="inherit">
                     <img src={logo} alt="Kukupay.js" height="25px" className={classes.image} />
@@ -29,4 +29,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
