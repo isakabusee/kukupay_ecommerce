@@ -13,7 +13,7 @@ const Navbar = () => {
             <Toolbar>
                 <Typography variant="h6" className={classes.title} color="inherit">
                     <img src={logo} alt="Kukupay.js" height="25px" className={classes.image} />
-                    Kukupay Market Place
+                    <h1>Kukupay Market Place</h1>
                 </Typography>
                 <div className={classes.grow} />
                 <div className={classes.button}>
