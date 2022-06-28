@@ -9,7 +9,7 @@ import  useStyles from './styles';
 //     { id: 2, name: 'Macbook', description: 'Apple macbook', price: 'TSh 10', image: 'https://media.cnn.com/api/v1/images/stellar/prod/211025072623-macbook-pro-14-display-5.jpg?q=x_0,y_0,h_2268,w_4030,c_fill/h_720,w_1280'},
 // ];
 
-const Products = ({ products }) => {
+const Products = ({ products, onAddToCart }) => {
     const classes = useStyles();
     return (
 
@@ -18,7 +18,7 @@ const Products = ({ products }) => {
         <Grid container justifyContent="center" spacing={4}>
             {products.map((product) => (
                 <Grid item key={product.id} xs={12} sm={6} md={4} lg={3}>
-                    <Product product={product} />
+                    <Product product={product}  onAddToCart={onAddToCart} />
                 </Grid>
             ))}
         </Grid>
