@@ -46,4 +46,13 @@ const Cart = ({ cart }) => {
   )
 }
 
-export default Cart
+export default Cart;
+
+// import React from 'react';
+
+// const Cart = () => {
+//     return(
+//         <div><h1>Cart</h1></div>
+//     )
+// }
+// export default Cart;
